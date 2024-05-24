@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa em JS!</title>
+    <style>
+        body{
+            font: normal 26px arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var name = window.prompt('Digite seu nome aqui:');
+        document.write(`Olá, <strong>${name}</strong>. seu nome possui ${name.length} letras <br>`);
+        document.write(`Seu nome em letras maiúsculas é ${name.toUpperCase()} <br>`);
+        document.write(`Seu nome em letras minúsculas é ${name.toLowerCase()}`);
+    </script>
+</body>
+</html>
